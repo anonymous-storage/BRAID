@@ -1,0 +1,4 @@
+BRAID_0.1 {
+  global: braid_*;
+  local: *;
+};

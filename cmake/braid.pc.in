@@ -1,0 +1,10 @@
+prefix=${pcfiledir}/@BRAID_PC_PREFIX@
+libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
+includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
+
+Name: BRAID
+Description: Pure factorized Reed-Solomon erasure coding
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -lbraid
+Libs.private: @BRAID_PC_PRIVATE@
+Cflags: -I${includedir}

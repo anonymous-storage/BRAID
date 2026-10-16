@@ -1,0 +1,12 @@
+@PACKAGE_INIT@
+include(CMakeFindDependencyMacro)
+find_dependency(Threads)
+include("${CMAKE_CURRENT_LIST_DIR}/BRAIDTargets.cmake")
+if(NOT TARGET BRAID::braid)
+  if(TARGET BRAID::shared)
+    add_library(BRAID::braid ALIAS BRAID::shared)
+  else()
+    add_library(BRAID::braid ALIAS BRAID::static)
+  endif()
+endif()
+check_required_components(BRAID)

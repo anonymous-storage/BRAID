@@ -1,0 +1,10 @@
+MAIN LIBRARY LICENSE: PENDING
+
+This is an unpublished, anonymous engineering review candidate. No open-source
+license or redistribution permission for the main BRAID code is granted by this
+file. The rights holders must select and approve a license before public release.
+Do not label this candidate as MIT-licensed or as an authorized open-source release.
+
+Third-party software retains its existing license and copyright notices. See
+NOTICE and third_party/asmjit/LICENSE.md. This pending notice does not alter those
+third-party permissions.

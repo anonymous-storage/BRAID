@@ -1,0 +1,14 @@
+BRAID: anonymous, unpublished release candidate. Main-library licensing is pending.
+
+This source distribution contains AsmJit, used only by the optional factorized
+AVX-512 JIT. Its original copyright and zlib-style license are preserved verbatim
+in third_party/asmjit/LICENSE.md and its source headers. AsmJit is not authored by
+the BRAID project and is not relicensed by this distribution. The vendored source
+is unmodified; only the containing build integration is new.
+
+Upstream third-party project: https://github.com/asmjit/asmjit
+No ISA-L sources or libraries are included or fetched by this project.
+
+Third-party author names, upstream URLs and upstream contact addresses under
+third_party/asmjit are required attribution, not BRAID author information. They
+are audited as a separate attribution scope by the anonymous source-pack gate.
